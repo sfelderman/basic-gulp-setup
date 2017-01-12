@@ -1,0 +1,72 @@
+.movie-layout {
+  background: url('../images/transparent-background.jpg') center / cover;
+}
+
+.movie-textfield-div label.mdl-textfield__label{
+  color: white;
+}
+
+.movie-textfield-div label.mdl-textfield__label::after{
+  display: none;
+}
+
+.movie-textfield-div input.mdl-textfield__input{
+  border-color: white;
+}
+
+.movie-card-square.mdl-card {
+  //width: 300px;
+  //min-height: 200px;
+  //margin-left: 9px; //change so that it is dependant on screen
+  //margin-right: 9px;
+  //margin-top: 8px;
+  //margin-bottom: 8px;
+
+  width: 300px;
+  height: 225px;
+  margin-left: 9px; //change so that it is dependant on screen
+  margin-right: 9px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+ #movieapp ul {
+   list-style-type: none; /* Hides bullet points from movie list */
+   padding-left: 5px;
+ }
+ 
+ .movie-row-div {
+   color: white;
+ }
+
+.movie-row-div ul li{
+   display: inline-block;
+ }
+
+.movie-card-square input.edit {
+   display: none; /* Hides input box*/
+ }
+
+ .editing .movie-card-square label {
+   display: none; /* Hides label text when .editing*/
+ }
+
+.editing .movie-card-square input.edit {
+  display: inline; /* Shows input text box when .editing*/
+  text-align: center;
+}
+
+.movie-card-square .mdl-card__title {
+}
+
+ .center-self {
+   align-self: center;
+ }
+
+ .center {
+   align-content: center;
+   align-items: center;
+ }
+
+
+

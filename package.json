@@ -1,0 +1,16 @@
+{
+  "name": "basic-gulp-setup",
+  "version": "1.0.0",
+  "description": "Basic setup with browser-sync and gulp",
+  "main": "index.html",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "basic-gulp-setup"
+  },
+  "author": "",
+  "license": "ISC"
+}
