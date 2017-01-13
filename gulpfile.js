@@ -1,6 +1,5 @@
 var gulp        = require('gulp');
 var sass = require('gulp-sass');
-var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
 
 // Start browserSync server
@@ -31,8 +30,6 @@ gulp.task('watch', function() {
   gulp.watch('app/js/**/*.js', browserSync.reload);
 })
 
-gulp.task('default', function(callback) {
-  runSequence(['sass', 'browserSync'], 'watch',
-    callback
-  )
-})
+gulp.task('default', ['watch', 'sass', 'browserSync'], function () {
+	console.log("Starting up...");
+});
