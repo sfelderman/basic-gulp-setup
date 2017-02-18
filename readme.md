@@ -9,7 +9,7 @@ scss is saved. The index.html file is in the app/ and is the
 start point for the app.
 
 ##Setup
-$ npm install gulp gulp-sass run-sequence browser-sync --save-dev
+$ npm install gulp gulp-sass browser-sync --save-dev
 
 This installs all the necessary node modules and updates the
 package.json's devDependencies.
